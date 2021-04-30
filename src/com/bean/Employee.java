@@ -41,9 +41,6 @@ public class Employee {
 			throw new NotAValidAgeException("Age must be above 21");
 		}
 	}
-	public ArrayList<Integer> getIdList() {
-		return idList;
-	}
 	public void setIdList() {
 		if(!(id.equals(null) && name.equals(null) && age.equals(null))) {
 			idList.add(id);
